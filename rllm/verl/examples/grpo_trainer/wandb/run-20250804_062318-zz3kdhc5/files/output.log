@@ -1,0 +1,31 @@
+Using LocalLogger is deprecated. The constructor API will change
+Failed to list directory /mnt/nvme5n1/markli/projects/qwen3_deepcoder/rllm/verl/examples/grpo_trainer/checkpoints/qwen3-code-grpo/test: [Errno 2] No such file or directory: '/mnt/nvme5n1/markli/projects/qwen3_deepcoder/rllm/verl/examples/grpo_trainer/checkpoints/qwen3-code-grpo/test'
+Training from scratch
+test_gen_batch meta info: {'eos_token_id': 151645, 'pad_token_id': 151643, 'recompute_log_prob': False, 'do_sample': False, 'validate': True}
+========================Validation generation end========================
+[prompt] user
+James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week? Let's think step by step and output the final answer after "####".
+assistant
+
+[response] <think>
+Okay, let's see. James is running 3 sprints three times a week. Each sprint is 60 meters. I need to find out how many meters he runs in a week.
+
+First, I should figure out how many sprints he does in a week. He does 3 sprints each day, and that's three times a week. So, 3 sprints/day multiplied by 3 days/week. Let me calculate that: 3 times 3 is 9. So, he does 9 sprints in a week.
+
+Now, each sprint is 60 meters. So, the total distance would be the number of sprints multiplied by the distance per sprint. That would be 9 sprints times 60 meters. Let me do that math. 9 times 60... Well, 9 times 6 is 54, so 540 meters.
+
+Wait, let me check again. 3 sprints per day for 3 days is 3*3=9 sprints. Each sprint is 60 meters, so 9*60. 60*9: 60*10 is 600, minus 60 is 540. Yeah, that seems right. So the total is 540 meters per week. I think that's it.
+</think>
+
+James runs 3 sprints each day for 3 days a week, totaling $3 \times 3 = 9$ sprints per week. Each sprint is 60 meters, so the total distance is $9 \times 60 = 540$ meters.
+
+#### 540
+[ground_truth] 540
+[score] 1.0
+("Initial validation metrics: {'val-core/openai/gsm8k/reward/mean@1': "
+ 'np.float64(0.379833206974981)}')
+step:0 - val-core/openai/gsm8k/reward/mean@1:0.380
+Training Progress:   0%|          | 1/700 [04:38<53:59:26, 278.06s/it]
+list(reward_extra_infos_dict.keys())=[]
+step:1 - batch/solve_none:389.000 - batch/solve_all:183.000 - batch/solve_partial:452.000 - training/rollout_probs_diff_max:0.742 - training/rollout_probs_diff_mean:0.005 - training/rollout_probs_diff_std:0.015 - global_seqlen/min:556455.000 - global_seqlen/max:573988.000 - global_seqlen/minmax_diff:17533.000 - global_seqlen/balanced_min:563649.000 - global_seqlen/balanced_max:563650.000 - global_seqlen/mean:563649.875 - actor/kl_loss:0.002 - actor/kl_coef:0.001 - actor/entropy_token_mean_loss:0.172 - actor/entropy_loss:0.172 - actor/pg_loss:0.013 - actor/pg_clipfrac:0.002 - actor/ppo_kl:0.000 - actor/pg_clipfrac_lower:0.000 - actor/grad_norm:0.167 - perf/mfu/actor:0.145 - perf/max_memory_allocated_gb:197.487 - perf/max_memory_reserved_gb:283.172 - perf/cpu_memory_used_gb:1374.130 - actor/lr:0.000 - training/global_step:1.000 - training/epoch:0.000 - critic/score/mean:0.389 - critic/score/max:1.000 - critic/score/min:0.000 - critic/rewards/mean:0.389 - critic/rewards/max:1.000 - critic/rewards/min:0.000 - critic/advantages/mean:-0.017 - critic/advantages/max:1.789 - critic/advantages/min:-1.789 - critic/returns/mean:-0.017 - critic/returns/max:1.789 - critic/returns/min:-1.789 - response_length/mean:797.275 - response_length/max:1024.000 - response_length/min:226.000 - response_length/clip_ratio:0.381 - prompt_length/mean:83.428 - prompt_length/max:194.000 - prompt_length/min:44.000 - prompt_length/clip_ratio:0.000 - timing_s/gen:136.652 - timing_s/reward:0.003 - timing_s/old_log_prob:24.473 - timing_s/ref:30.023 - timing_s/adv:57.947 - timing_s/update_actor:82.082 - timing_s/step:276.836 - timing_per_token_ms/gen:0.033 - timing_per_token_ms/ref:0.007 - timing_per_token_ms/update_actor:0.018 - timing_per_token_ms/adv:0.013 - perf/total_num_tokens:4509199.000 - perf/time_per_step:276.836 - perf/throughput:2036.044
+list(reward_extra_infos_dict.keys())=[]

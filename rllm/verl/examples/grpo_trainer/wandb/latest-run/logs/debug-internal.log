@@ -1,0 +1,7 @@
+{"time":"2025-08-04T06:23:18.586608892Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/mnt/nvme5n1/markli/projects/qwen3_deepcoder/rllm/verl/examples/grpo_trainer/wandb/run-20250804_062318-zz3kdhc5/logs/debug-core.log"}
+{"time":"2025-08-04T06:23:19.931425547Z","level":"INFO","msg":"created new stream","id":"zz3kdhc5"}
+{"time":"2025-08-04T06:23:19.931489196Z","level":"INFO","msg":"stream: started","id":"zz3kdhc5"}
+{"time":"2025-08-04T06:23:19.931514924Z","level":"INFO","msg":"writer: Do: started","stream_id":"zz3kdhc5"}
+{"time":"2025-08-04T06:23:19.931547526Z","level":"INFO","msg":"handler: started","stream_id":"zz3kdhc5"}
+{"time":"2025-08-04T06:23:19.931559259Z","level":"INFO","msg":"sender: started","stream_id":"zz3kdhc5"}
+{"time":"2025-08-04T06:23:20.153138498Z","level":"INFO","msg":"Starting system monitor"}

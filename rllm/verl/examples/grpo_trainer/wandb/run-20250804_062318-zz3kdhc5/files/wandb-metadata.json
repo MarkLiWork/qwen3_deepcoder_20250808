@@ -1,0 +1,156 @@
+{
+  "os": "Linux-5.15.0-1086-azure-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.10",
+  "startedAt": "2025-08-04T06:23:18.583138Z",
+  "args": [
+    "--node-ip-address=10.0.0.9",
+    "--node-manager-port=39415",
+    "--object-store-name=/tmp/ray/session_2025-08-04_06-15-47_719587_1334940/sockets/plasma_store",
+    "--raylet-name=/tmp/ray/session_2025-08-04_06-15-47_719587_1334940/sockets/raylet",
+    "--redis-address=None",
+    "--metrics-agent-port=35675",
+    "--logging-rotate-bytes=536870912",
+    "--logging-rotate-backup-count=5",
+    "--runtime-env-agent-port=59965",
+    "--gcs-address=10.0.0.9:52811",
+    "--session-name=session_2025-08-04_06-15-47_719587_1334940",
+    "--temp-dir=/tmp/ray",
+    "--webui=127.0.0.1:8265",
+    "--cluster-id=6cec12a9bb75411a1a3ab04b009cef928129c2150beb58398aab5cd6",
+    "--startup-token=96",
+    "--worker-launch-time-ms=1754288151729",
+    "--node-id=1832b3ef67a30c07c9f4c5f7a519c304c34821a3435552a06292007b",
+    "--runtime-env-hash=-1624044036"
+  ],
+  "program": "/usr/local/lib/python3.12/dist-packages/ray/_private/workers/default_worker.py",
+  "git": {
+    "remote": "https://github.com/agentica-project/verl.git"
+  },
+  "email": "zongqianli.work@outlook.com",
+  "root": "/mnt/nvme5n1/markli/projects/qwen3_deepcoder/rllm/verl/examples/grpo_trainer",
+  "host": "qwen3-deepcoder",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 96,
+  "cpu_count_logical": 96,
+  "gpu": "0x74b5",
+  "gpu_count": 8,
+  "disk": {
+    "/": {
+      "total": "1081099079680",
+      "used": "528328089600"
+    }
+  },
+  "memory": {
+    "total": "1955235160064"
+  },
+  "cpu": {
+    "count": 96,
+    "countLogical": 96
+  },
+  "gpu_amd": [
+    {
+      "id": "3",
+      "uniqueId": "0xbd8394d955c6ce2b",
+      "vbiosVersion": "113-M3000100-101",
+      "performanceLevel": "auto",
+      "maxPower": "750.0",
+      "series": "0x74b5",
+      "model": "0x74b5",
+      "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku": "M3000100",
+      "sclkRange": "500Mhz - 2100Mhz",
+      "mclkRange": "900Mhz - 1300Mhz"
+    },
+    {
+      "id": "1",
+      "uniqueId": "0xe3f964b6eabc98c8",
+      "vbiosVersion": "113-M3000100-101",
+      "performanceLevel": "auto",
+      "maxPower": "750.0",
+      "series": "0x74b5",
+      "model": "0x74b5",
+      "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku": "M3000100",
+      "sclkRange": "500Mhz - 2100Mhz",
+      "mclkRange": "900Mhz - 1300Mhz"
+    },
+    {
+      "id": "6",
+      "uniqueId": "0xaf8ffeece112369d",
+      "vbiosVersion": "113-M3000100-101",
+      "performanceLevel": "auto",
+      "maxPower": "750.0",
+      "series": "0x74b5",
+      "model": "0x74b5",
+      "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku": "M3000100",
+      "sclkRange": "500Mhz - 2100Mhz",
+      "mclkRange": "900Mhz - 1300Mhz"
+    },
+    {
+      "id": "7",
+      "uniqueId": "0xb554b99143bdcf13",
+      "vbiosVersion": "113-M3000100-101",
+      "performanceLevel": "auto",
+      "maxPower": "750.0",
+      "series": "0x74b5",
+      "model": "0x74b5",
+      "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku": "M3000100",
+      "sclkRange": "500Mhz - 2100Mhz",
+      "mclkRange": "900Mhz - 1300Mhz"
+    },
+    {
+      "id": "2",
+      "uniqueId": "0x7c6cc914ed605318",
+      "vbiosVersion": "113-M3000100-101",
+      "performanceLevel": "auto",
+      "maxPower": "750.0",
+      "series": "0x74b5",
+      "model": "0x74b5",
+      "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku": "M3000100",
+      "sclkRange": "500Mhz - 2100Mhz",
+      "mclkRange": "900Mhz - 1300Mhz"
+    },
+    {
+      "id": "0",
+      "uniqueId": "0xe3533968d6d47e79",
+      "vbiosVersion": "113-M3000100-101",
+      "performanceLevel": "auto",
+      "maxPower": "750.0",
+      "series": "0x74b5",
+      "model": "0x74b5",
+      "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku": "M3000100",
+      "sclkRange": "500Mhz - 2100Mhz",
+      "mclkRange": "900Mhz - 1300Mhz"
+    },
+    {
+      "id": "4",
+      "uniqueId": "0x5b178447cb30927e",
+      "vbiosVersion": "113-M3000100-101",
+      "performanceLevel": "auto",
+      "maxPower": "750.0",
+      "series": "0x74b5",
+      "model": "0x74b5",
+      "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku": "M3000100",
+      "sclkRange": "500Mhz - 2100Mhz",
+      "mclkRange": "900Mhz - 1300Mhz"
+    },
+    {
+      "id": "5",
+      "uniqueId": "0x6b68dbc7eb32bc45",
+      "vbiosVersion": "113-M3000100-101",
+      "performanceLevel": "auto",
+      "maxPower": "750.0",
+      "series": "0x74b5",
+      "model": "0x74b5",
+      "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku": "M3000100",
+      "sclkRange": "500Mhz - 2100Mhz",
+      "mclkRange": "900Mhz - 1300Mhz"
+    }
+  ]
+}
